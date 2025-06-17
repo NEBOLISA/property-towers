@@ -9,7 +9,7 @@ function FloorList() {
     
     const tower = data.towers.find((tower) => tower.id === Number(towerId))
   
-    
+    console.log({tower})
   return (
     <div className='p-4 px-0 grid sm:grid-cols-2 md:grid-cols-3  gap-4 grid-cols-1 grid-rows-[auto] '>
       {tower.floors.map((floor) => {

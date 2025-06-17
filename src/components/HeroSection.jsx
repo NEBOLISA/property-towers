@@ -26,7 +26,7 @@ const HeroSection = () => {
     }
     return (
       <div className='w-full h-[600px] overflow-hidden group relative  '>
-        <div className='group-hover:flex justify-between w-full hidden  top-1/2 -translate-y-1/2 my-auto z-50 absolute'>
+        <div className='group-hover:flex justify-between w-full hidden  top-1/2 -translate-y-1/2 my-auto  absolute'>
           <div
             className='p-3 flex items-center justify-center ml-2 cursor-pointer bg-white'
             onClick={goToPrevSlide}
@@ -53,10 +53,21 @@ const HeroSection = () => {
           ))}
         </div>
         <div className='w-full h-1/5 bg-black/80 absolute bottom-0'>
-          <div className='w-[90%] h-full flex items-center justify-center mx-auto gap-4'>
-            <InputComponent placeholder='City' type='text' />
-            <InputComponent placeholder='From' type='number' leftIconPresent />
-            <InputComponent placeholder='To' type='number' leftIconPresent />
+          <div className='w-[90%] gap-2 h-full flex  md:flex-row flex-col items-center justify-center mx-auto lg:gap-4'>
+            <InputComponent placeholder='City' type='text' mobile/>
+            <InputComponent
+              placeholder='From'
+             
+              type='number'
+              leftIconPresent
+
+            />
+            <InputComponent
+              placeholder='To'
+             
+              type='number'
+              leftIconPresent
+            />
             <Button text='Search' />
           </div>
         </div>

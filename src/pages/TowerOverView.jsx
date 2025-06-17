@@ -11,7 +11,7 @@ const TowerOverView = () => {
       <HeroSection />
       <div className='mx-auto w-[80%] '>
         <h2 className='font-bold text-3xl mt-10'>Towers</h2>
-        <div className='grid-cols-3 grid  gap-10'>
+        <div className='lg:grid-cols-3 grid md:grid-cols-2 grid-cols-1  gap-10'>
 
         {towerData.map((tower) => (
           <TowerCard

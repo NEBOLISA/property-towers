@@ -20,22 +20,28 @@ export const data = {
               unitType: '1BHK',
               area: '600 sqft',
               rooms: 3,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/04/39/44/33/240_F_439443377_KMbvGadRff7ucfTqJdAJ0kwLwp88hxHr.jpg'
             },
             {
               id: '1-A2',
               unitType: '1BHK',
-              area: '600 sqft',
-              rooms: 3,
+              area: '300 sqft',
+              rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
-                'https://t4.ftcdn.net/jpg/05/58/28/39/240_F_558283914_DbhElEI71hUSh2MNtJbscvqboopFC41j.jpgg'
+                'https://t4.ftcdn.net/jpg/05/58/28/39/240_F_558283914_DbhElEI71hUSh2MNtJbscvqboopFC41j.jpg'
             },
             {
               id: '1-A3',
               unitType: '1BHK',
-              area: '600 sqft',
-              rooms: 3,
+              area: '800 sqft',
+              rooms: 4,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t3.ftcdn.net/jpg/06/39/42/46/240_F_639424665_YGf5eZXs70GJQyKRHYS51uxg4daD8LFL.jpg'
             }
@@ -52,6 +58,8 @@ export const data = {
               unitType: '2BHK',
               area: '800 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/04/62/81/35/240_F_462813515_06tnNd4cDhFNNCAGt30kr4kqnErBGBKF.jpg'
             },
@@ -60,6 +68,8 @@ export const data = {
               unitType: '2BHK',
               area: '800 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/02/22/47/41/240_F_222474111_L5iQLfgPGz0SYjNqH3trBHlZaAnuaapl.jpg'
             },
@@ -68,6 +78,8 @@ export const data = {
               unitType: '2BHK',
               area: '800 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/02/72/52/61/240_F_272526128_HRF7dRsL7E3RiPP6XCUqvCgVrDay8xhF.jpg'
             }
@@ -84,6 +96,8 @@ export const data = {
               unitType: '3BHK',
               area: '1000 sqft',
               rooms: 3,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/04/83/82/09/240_F_483820922_zj1cHFelOilU8m3Dw96F73H9MASaO8TA.jpg'
             },
@@ -92,6 +106,8 @@ export const data = {
               unitType: '3BHK',
               area: '1000 sqft',
               rooms: 3,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t3.ftcdn.net/jpg/02/59/31/98/240_F_259319855_SUVL8MCpgqbLGynHrYhUGGzGFzutBvBU.jpg'
             }
@@ -108,6 +124,8 @@ export const data = {
               unitType: 'Studio',
               area: '400 sqft',
               rooms: 3,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/04/60/56/43/240_F_460564314_zZQ74SMg0WBmgg1la485FQJnZCVFNl8S.jpg'
             },
@@ -116,6 +134,8 @@ export const data = {
               unitType: 'Studio',
               area: '400 sqft',
               rooms: 3,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/02/08/76/79/240_F_208767949_6LChIqVQhLU4uN15wSweKkbH0ufNp1fm.jpg'
             },
@@ -124,6 +144,8 @@ export const data = {
               unitType: 'Studio',
               area: '400 sqft',
               rooms: 3,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/01/82/95/21/240_F_182952149_uRgkP4Eu4juoqkzYSbKElBCz9EyF5nsp.jpg'
             }
@@ -140,6 +162,8 @@ export const data = {
               unitType: '1BHK',
               area: '600 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/09/43/24/73/240_F_943247331_Ml0Gl0ovix5FpWfabDmLZhmFQipyxYrn.jpg'
             },
@@ -148,6 +172,8 @@ export const data = {
               unitType: '1BHK',
               area: '600 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t3.ftcdn.net/jpg/03/60/46/44/240_F_360464434_nBakyPQGXS5J3jGVKrSxodvxUUcfuF1Y.jpg'
             },
@@ -156,6 +182,8 @@ export const data = {
               unitType: '1BHK',
               area: '600 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/03/63/64/35/240_F_363643519_GY0uwy4frw42ppInAUkffmopdV89bu2h.jpg'
             },
@@ -164,6 +192,8 @@ export const data = {
               unitType: '1BHK',
               area: '600 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/02/94/54/55/240_F_294545573_CfGs7KrpTh8EpDAUER34IaujIZe5WwcZ.jpg'
             }
@@ -180,6 +210,8 @@ export const data = {
               unitType: '2BHK',
               area: '800 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t3.ftcdn.net/jpg/04/41/60/86/240_F_441608666_aygPnmMurquwCfyUI03mj3ir3cDZIgkL.jpg'
             },
@@ -188,6 +220,8 @@ export const data = {
               unitType: '2BHK',
               area: '800 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t3.ftcdn.net/jpg/05/59/37/04/240_F_559370429_uOpMJG5WDsof9JXbfkfuU8FyaJ219Vcd.jpg'
             },
@@ -196,6 +230,8 @@ export const data = {
               unitType: '2BHK',
               area: '800 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t3.ftcdn.net/jpg/05/00/88/98/240_F_500889898_9gsGKbK95pnaVfxOSSIxxFoCAavZFPJv.jpg'
             }
@@ -212,6 +248,8 @@ export const data = {
               unitType: '3BHK',
               area: '1000 sqft',
               rooms: 3,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/05/35/55/17/240_F_535551786_e1tE0MTASm85Dn3pdJg1gePIrM2otFrV.jpg'
             },
@@ -220,6 +258,8 @@ export const data = {
               unitType: '3BHK',
               area: '1000 sqft',
               rooms: 3,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t3.ftcdn.net/jpg/03/48/06/74/240_F_348067415_PmFzkSJzPMXwni4RhmnB2Zji3TmA0pUF.jpg'
             }
@@ -236,6 +276,8 @@ export const data = {
               unitType: 'Studio',
               area: '400 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/05/35/55/17/240_F_535551786_e1tE0MTASm85Dn3pdJg1gePIrM2otFrV.jpg'
             },
@@ -244,6 +286,8 @@ export const data = {
               unitType: 'Studio',
               area: '400 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/01/70/05/89/240_F_170058942_0NvVD2jjquhQX1WrcXSdS4AKf7FpfGFW.jpg'
             }
@@ -260,6 +304,8 @@ export const data = {
               unitType: '1BHK',
               area: '600 sqft',
               rooms: 1,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t3.ftcdn.net/jpg/03/19/41/56/240_F_319415634_yuRdJRbEulVh1X1IwrpK0L1pu4EveMyS.jpg'
             },
@@ -268,6 +314,8 @@ export const data = {
               unitType: '1BHK',
               area: '600 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/04/37/14/67/240_F_437146725_btw7RkVUuW62qAtOeZHyvsnkwhmHfHa7.jpg'
             },
@@ -276,6 +324,8 @@ export const data = {
               unitType: '1BHK',
               area: '600 sqft',
               rooms: 3,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/02/78/17/87/240_F_278178764_e67Im31Vl1oqDypVOmqpLYkP1nxl04DV.jpg'
             }
@@ -292,6 +342,8 @@ export const data = {
               unitType: '2BHK',
               area: '800 sqft',
               rooms: 2,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/04/31/33/17/240_F_431331748_TFe7AmvZmtzwdMGrTkIZjntrnnLICblW.jpg'
             },
@@ -300,6 +352,8 @@ export const data = {
               unitType: '2BHK',
               area: '800 sqft',
               rooms: 3,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t4.ftcdn.net/jpg/04/31/33/17/240_F_431331748_TFe7AmvZmtzwdMGrTkIZjntrnnLICblW.jpg'
             },
@@ -308,6 +362,8 @@ export const data = {
               unitType: '2BHK',
               area: '800 sqft',
               rooms: 1,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t3.ftcdn.net/jpg/03/02/57/98/240_F_302579819_0YuVrmAur2IZyiUNq56Nr5dNz6S1mr2d.jpg'
             },
@@ -316,6 +372,8 @@ export const data = {
               unitType: '2BHK',
               area: '800 sqft',
               rooms: 3,
+              description:
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus, a tempora accusamus, nemo quas mollitia modi corporis aliquid veritatis deserunt debitis nesciunt error magnam nam? Rerum iste nihil eveniet.',
               image:
                 'https://t3.ftcdn.net/jpg/00/40/78/90/240_F_40789095_AHh75o0ikOgPVx4SwEki8ryb406B5Kp5.jpg'
             }
