@@ -6,7 +6,7 @@ import LayoutView from '../pages/LayoutView'
 
 
 const AppRoutes = () => (
-  <>
+  <div className='mt-[100px]'>
       
     <Routes>
       <Route path='/' element={<TowerOverView />} />
@@ -14,7 +14,7 @@ const AppRoutes = () => (
       <Route path='/tower/:towerId/floor/:floorId' element={<LayoutView />} />
     </Routes>
        
-  </>
+  </div>
 )
 
 export default AppRoutes

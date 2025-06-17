@@ -9,7 +9,7 @@ const LayoutDetail = () => {
   const [selectedApartment, setSelectedApartment] = useState(apartmentData[0])
   const [mouseEnterId, setMouseEnterId] = useState(null)
     const numberOfApartment = apartmentData.length
-  console.log({apartmentData})
+ 
   return (
     <div className='lg:flex grid grid-cols-1 justify-between gap-8 '>
       <div className='border-[2px] flex overflow-hidden items-center justify-center  flex-col border-gray-300 h-full w-full rounded-lg p-5'>
@@ -68,20 +68,20 @@ const LayoutDetail = () => {
         </div>
       </div>
       <div className='border-[2px] border-gray-300 h-full w-full rounded-lg p-4'>
-        <div className='w-full h-full flex flex-col  justify-center'>
+        <div className='w-full h-full '>
           <h1 className='font-bold text-3xl mb-2'>
             Apartment {selectedApartment?.id}
           </h1>
-          <div className='flex gap-4 items-center justify-center mt-9 mb-5'>
-            <h2 className='font-medium border-r-[2px] border-gray-300 px-2'>
+          <div className='flex md:flex-row flex-col md:items-center md:justify-center mt-9 mb-5'>
+            <h2 className='font-medium md:border-r-[2px] border-gray-300 px-2'>
               Unit Type:{' '}
               <span className='font-light'>{selectedApartment?.unitType}</span>
             </h2>
-            <h2 className='font-medium border-r-[2px] py-0 border-gray-300 px-2 '>
+            <h2 className='font-medium md:border-r-[2px] py-0 border-gray-300 px-2 '>
               Number of Rooms:{' '}
               <span className='font-light'>{selectedApartment?.rooms}</span>
             </h2>
-            <h2 className='font-medium border-r-[2px] border-gray-300 px-2'>
+            <h2 className='font-medium md:border-r-[2px] border-gray-300 px-2'>
               Area:{' '}
               <span className='font-light'>{selectedApartment?.area}</span>
             </h2>
