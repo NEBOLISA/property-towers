@@ -26,7 +26,7 @@ const HeroSection = () => {
     }
     return (
       <div className='w-full h-[600px] overflow-hidden group relative   mt-[100px]'>
-        <div className='group-hover:flex justify-between w-full hidden  top-1/2 -translate-y-1/2 my-auto  absolute'>
+        <div className='group-hover:flex justify-between w-full hidden  top-1/2 -translate-y-1/2 my-auto z-50 absolute'>
           <div
             className='p-3 flex items-center justify-center ml-2 cursor-pointer bg-white'
             onClick={goToPrevSlide}
