@@ -21,7 +21,7 @@ const HeaderNav = ({setIsDropdownHovered,isDropdownHovered}) => {
         </li>
         <li className='cursor-pointer hover:text-black transition-all duration-300'>
           <div
-            className='group relative flex items-center '
+            className='group  flex items-center '
             onMouseEnter={() => {
               setIsDropdownHovered(true)
             }}

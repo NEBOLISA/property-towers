@@ -9,7 +9,7 @@ const LayoutDetail = () => {
   const [selectedApartment, setSelectedApartment] = useState(apartmentData[0])
   const [mouseEnterId, setMouseEnterId] = useState(null)
     const numberOfApartment = apartmentData.length
-    console.log({selectedApartment})
+  console.log({apartmentData})
   return (
     <div className='lg:flex grid grid-cols-1 justify-between gap-8 '>
       <div className='border-[2px] flex overflow-hidden items-center justify-center  flex-col border-gray-300 h-full w-full rounded-lg p-5'>

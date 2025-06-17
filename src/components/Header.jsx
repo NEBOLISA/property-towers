@@ -11,7 +11,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
     <div className='bg-amber-600 w-full md:h-[100px] h-full  overflow-hidden'>
-      <div className='md:w-[85%] w-[90%] mx-auto z-30  flex justify-between md:justify-center lg:justify-between items-center h-[100px] md:h-full '>
+      <div className='md:w-[85%] w-[90%] mx-auto z-50  flex justify-between md:justify-center lg:justify-between items-center h-[100px] md:h-full '>
         <Link to='/' className='cursor-pointer block md:hidden lg:block -pl-9 '>
           <div>
             <img
@@ -57,7 +57,7 @@ const Header = () => {
 
 export const Dropdown = () => {
   return (
-    <div className='w-[130px] bg-black/50 h-max absolute top-6 hidden text-white group-hover:block p-2 shadow-lg'>
+    <div className='w-[130px] bg-black/50 h-max absolute md:top-16 hidden text-white group-hover:block p-2 shadow-lg z-50'>
       <ul>
         <li>Option1</li>
         <li>Option2</li>
