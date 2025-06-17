@@ -22,9 +22,12 @@ const NavComponent = ({ navData, currentPage }) => {
           <span>{'>'}</span>
         </div>
       ))}
-      <button className='text-gray-800 md:text-sm text-[10px] font-medium cursor-not-allowed'>
+      <div className='flex items-center justify-center'>
+
+      <button className='text-gray-800 md:text-sm text-[8px] font-medium cursor-not-allowed'>
         {currentPage}
       </button>{' '}
+      </div>
     </nav>
   )
 }
